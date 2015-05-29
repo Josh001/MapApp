@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ActionBarCompat">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:orientation">horizontal</item>
+        <!-- <item name="android:background">@drawable/actionbar_background</item> -->
+        <item name="android:background">#FF4488E5</item>
+    </style>
+
+    <style name="DashboardButton">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff29549f</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="FooterBar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">#ff4488E5</item>
+    </style>
+
+    <string name="app_name">Mapforit</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_mainmapview">Mainmapview</string>
+
+    <string-array name="allthings">
+        <item>Nearby Places</item>
+        <item>About</item>
+        <item>help</item>
+        <item>exit</item>
+    </string-array>
+
+    <string name="title_activity_places">PlacesActivity</string>
+    <string name="title_activity_single_place">SinglePlaceDetails</string>
+    <string name="title_activity_places_map">PlacesMapActivity</string>
+    <string name="map_info" />
+    <string name="title_activity_places_map_sctivity2">PlacesMapSctivity2</string>
+    <string name="title_activity_placemap_activity2">PlacemapActivity2</string>
+    <string name="title_activity_second_map">SecondMap</string>
+    <string name="title_activity_map_single">MapSingle</string>
+    <string name="title_activity_srcondmapplace">Srcondmapplace</string>
+
+</resources>

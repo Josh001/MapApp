@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.joss.mapforit.MainActivity" >
+
+    
+    <item
+        android:id="@+id/Locate"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:title="Location"/>
+ 
+    <item
+        android:id="@+id/mapTypeNormal"
+        android:title="Normal">
+    </item>
+    <item
+        android:id="@+id/mapTypeSatellite"
+        android:title="Satellite">
+    </item>
+    <item
+        android:id="@+id/mapTypeterrain"
+        android:title="Terrain">
+    </item>
+    <item
+        android:id="@+id/mapTypeHybrid"
+        android:title="Hybrid">
+    </item>
+    
+
+</menu>

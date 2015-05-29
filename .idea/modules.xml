@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Mapforit.iml" filepath="$PROJECT_DIR$/Mapforit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/geocoderLIBmaster/geocoderLIBmaster.iml" filepath="$PROJECT_DIR$/geocoderLIBmaster/geocoderLIBmaster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mapforit/mapforit.iml" filepath="$PROJECT_DIR$/mapforit/mapforit.iml" />
+    </modules>
+  </component>
+</project>

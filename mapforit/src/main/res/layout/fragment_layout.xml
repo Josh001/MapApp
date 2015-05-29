@@ -1,0 +1,53 @@
+<com.joss.mapforit.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#ffffff" >
+    <!--  News Feed Button -->
+    <Button
+        android:id="@+id/btn_myproject"
+        android:drawableTop="@drawable/myfolder"
+        style="@style/DashboardButton"
+        android:text="Project" />
+<!--              android:drawableTop="@drawable/btn_newsfeed"
+ -->    
+    <!--  Friends Button -->
+    <Button
+        android:id="@+id/btn_listplaces"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/folder1"
+        android:text="Explore places" />
+<!--              android:drawableTop="@drawable/btn_friends"
+ -->    
+    <!--  Messages Button -->
+    <Button
+        android:id="@+id/btn_googleabout"
+        style="@style/DashboardButton"
+        android:text="Google about" />
+<!--              android:drawableTop="@drawable/btn_messages"
+ -->    
+ 
+    <!--  Places Button -->
+    <Button
+        android:id="@+id/btn_places"
+        style="@style/DashboardButton"
+        android:text="Places" />
+<!--          android:drawableTop="@drawable/btn_places"
+ -->    
+    <!--  Events Button -->
+    <Button
+        android:id="@+id/btn_about"
+        style="@style/DashboardButton"
+        android:text="About" />
+<!--          android:drawableTop="@drawable/btn_events"
+ -->    
+    <!--  Photos Button -->
+    <Button
+        android:id="@+id/btn_exit"
+        style="@style/DashboardButton"
+        android:text="Exit" />
+<!--             android:drawableTop="@drawable/btn_photos"
+ -->    
+ 
+</com.joss.mapforit.DashboardLayout>
